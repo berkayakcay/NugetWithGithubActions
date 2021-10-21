@@ -1,7 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net5.0</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Authors>Berkay Akçay</Authors>
+        <Product>Example Product</Product>
+        <PackageProjectUrl>https://github.com/berkayakcay/NugetWithGithubActions</PackageProjectUrl>
+        <PackageIconUrl />
+        <RepositoryUrl>https://github.com/berkayakcay/NugetWithGithubActions</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <Version>12.4.0</Version>
+        <PackageTags>Nuget With Github Actions;Nuget;Github Actions</PackageTags>
+        <Description>
+            This is example project that pack and publish a nuget packages when new release published
+        </Description>
     </PropertyGroup>
 
 </Project>
