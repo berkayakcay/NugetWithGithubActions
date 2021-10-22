@@ -1,4 +1,4 @@
-﻿namespace NugetWithGithubActions
+﻿namespace FooLibrary
 {
     public class Secrets
     {
