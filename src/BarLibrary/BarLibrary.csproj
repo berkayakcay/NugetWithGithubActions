@@ -10,11 +10,16 @@
         <RepositoryType>git</RepositoryType>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageTags>Example;Nuget With Github Actions;Nuget;Github Actions</PackageTags>
         <Description>
             This is example project that pack and publish a nuget packages when new release published
         </Description>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AWSSDK.SimpleSystemsManagement" Version="3.7.7.8" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    </ItemGroup>
 
 </Project>
