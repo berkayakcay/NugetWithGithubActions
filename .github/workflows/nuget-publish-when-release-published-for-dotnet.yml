@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Replace tokens
-    - uses: cschleiden/replace-tokens@v1.1
+      uses: cschleiden/replace-tokens@v1.1
       with: 
         files: '["**/Secrets.cs"]'
       env:
